@@ -10,12 +10,16 @@ const Navbar = () => {
         style={{
           background: "linear-gradient(45deg, #FF6B6B, #556270)",
           borderRadius: "24%",
+          position: "sticky",
+          top: "0",
+          zIndex: "100",
         }}
       >
         <img
           src="https://img.freepik.com/premium-photo/popcorn-bucket-clapper-board-film-reel-inside-big-movie-theater_285885-2748.jpg?w=740"
           alt="brand logo"
-          className="w-16 rounded-md" style={{width: "110px"}}
+          className="w-16 rounded-md"
+          style={{ width: "110px" }}
         />
         <h2
           className="text-900 tracking-widest"
